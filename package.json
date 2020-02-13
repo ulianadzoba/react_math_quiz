@@ -1,5 +1,5 @@
 {
-  "activationEvents": "http://ulianadzoba.github.io/react_math_quiz",
+  "homepage": "http://ulianadzoba.github.io/react_math_quiz",
   "name": "math-quiz",
   "version": "0.1.0",
   "private": true,
