@@ -20,7 +20,6 @@ class Quiz extends Component {
                     { text: 28, id: 3 },
                     { text: 7, id: 4 },
                 ]
-
             },
             {
                 title: 'Solve : 24 + 4 ÷ 4 - (8 + 1)',
@@ -32,7 +31,6 @@ class Quiz extends Component {
                     { text: 18, id: 3 },
                     { text: 44, id: 4 },
                 ]
-
             },
             {
                 title: 'Solve : sqrt(196)',
@@ -157,8 +155,6 @@ class Quiz extends Component {
             }
             window.clearTimeout(timeout)
         }, 1300)
-
-
     }
 
     isGameFinished() {
@@ -173,6 +169,7 @@ class Quiz extends Component {
             result: 0,
         })
     }
+
     render() {
         return (
             <div className='quiz'>
@@ -181,7 +178,6 @@ class Quiz extends Component {
                     <FinishedLayout
                         result={this.state.result}
                         onRetry={this.onRetry} />
-
                     : <QuestionBlock
                         title={this.state.questions[this.state.currentQuestion].title}
                         id={this.state.questions[this.state.currentQuestion].id}

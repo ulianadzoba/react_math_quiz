@@ -14,11 +14,9 @@ const FinishedLayouts = props => {
     } else {
         return (
             <div className='finished-block'>
-                < div className='result'> Congratulation! Your result is < strong > {props.result}</strong ></div >
+                <div className='result'> Congratulation! Your result is < strong > {props.result}</strong ></div >
                 <div className='advise'>You are cool!</div>
             </div>
-
-
         )
     }
 };

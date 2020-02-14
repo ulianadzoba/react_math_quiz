@@ -16,8 +16,6 @@ const QuestionBlock = (props) => (
             onAnswerClick={props.onAnswerClick}
             answerState={props.answerState}
         />
-
-
     </div>
 )
 
